@@ -3,8 +3,9 @@ markdown: kramdown
 
 # URL of the Site
 url: 'https://diger-king.github.io'
+
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: https://github.com/diger-king/diger-king.github.io
+baseurl:
 
 # Title of the Site
 title: KDH's Archive
