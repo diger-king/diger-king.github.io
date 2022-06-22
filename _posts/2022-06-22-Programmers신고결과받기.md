@@ -1,6 +1,6 @@
 ---
 
-title: Programmers Level 1: 2022 KAKAO BLIND RECRUITMENT 신고 결과 받기 (Python)
+title: Programmers Level 1. 2022 KAKAO BLIND RECRUITMENT 신고 결과 받기 (Python)
 layout: post
 description: 코딩테스트 연습 2022 KAKAO BLIND RECRUITMENT 신고 결과 받기
 post-image: https://programmers.co.kr/assets/img-meta-programmers-e00862a7c9acd8ef5164f8c85b3ab0127d083ab59b3a98d7219690bd3570bf35.png
