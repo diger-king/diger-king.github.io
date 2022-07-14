@@ -11,3 +11,6 @@ tags:
 
 ---
 
+# 생성자로, 인스턴스를 생성했을 때
+
+    NutritionFacts cocacola = new NutritionFacts()
