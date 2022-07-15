@@ -1,6 +1,6 @@
 ---
 
-title: DFS/BFS 파고들기
+title: (Algorithm) 그래프 탐색이란?
 layout: post
 description: DFS/BFS
 post-image: https://i.ytimg.com/vi/5WnfXh0YQcQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCes55OA2RcBR9zjGGcNSQtN3Jxqw
