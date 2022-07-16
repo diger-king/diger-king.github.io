@@ -25,7 +25,7 @@ tags:
 | release | 이번 출시 버전을 준비하는 브랜치(QA)   |
 | hotfix | 출시 버전에서 발생한 버그를 수정하는 브랜치 |
 
-![Git-Flow](https://user-images.githubusercontent.com/60564431/179346108-ceac029e-8159-4ea3-852b-155d014655d0.jpg)
+![Git-Flow](https://user-images.githubusercontent.com/60564431/179346591-d0edee5e-1bff-4600-aee0-330590bdffde.jpg)
 
 > 위 그림은 브랜치 전략을 그려본 내용이다.
 > 
