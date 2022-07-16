@@ -16,7 +16,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: https://user-images.githubusercontent.com/60564431/179347044-d60272f6-cdfa-4de8-93e7-339972183d37.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://cdnb.artstation.com/p/assets/images/images/037/138/405/large/swagat-nayak-final.jpg?1619596572&h=650&w=940
@@ -35,7 +35,7 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: diger-king
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://avatars.githubusercontent.com/u/60564431?v=4
 # 60 Words About the Author
 author-about: 몇 달 후에 다시 봐도 이해하기 좋은 글 쓰기
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
