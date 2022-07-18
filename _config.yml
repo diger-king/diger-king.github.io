@@ -4,23 +4,27 @@ markdown: kramdown
 # URL of the Site
 url: 'https://diger-king.github.io'
 
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl:
+## Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+#baseurl:
 
 # Title of the Site
 title: KDH's Archive
+
 # Description of the Site
 description: 백엔드 훈련일지 기록
+
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
+
 # Keywords of the Site
 site-keywords: Site, Template, Theme
+
 # URL for the Image of custom Favicon
 favicon-url: https://user-images.githubusercontent.com/60564431/179347044-d60272f6-cdfa-4de8-93e7-339972183d37.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 #heroimage: https://cdnb.artstation.com/p/assets/images/images/037/138/405/large/swagat-nayak-final.jpg?1619596572&h=650&w=940
-heroimage: https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg?itok=9hyNVMwe
+heroimage: https://camo.githubusercontent.com/f7a7f184221405e3d4342a9091dfe2cbf35c2055adc0b51ec8205af1b82ccce3/68747470733a2f2f7777772e6e6173612e676f762f73697465732f64656661756c742f66696c65732f7374796c65732f66756c6c5f77696474682f7075626c69632f7468756d626e61696c732f696d6167652f6d61696e5f696d6167655f737461722d666f726d696e675f726567696f6e5f636172696e615f6e697263616d5f66696e616c2d313238302e6a70673f69746f6b3d3968794e564d7765
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
