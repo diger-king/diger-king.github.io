@@ -19,7 +19,8 @@ site-keywords: Site, Template, Theme
 favicon-url: https://user-images.githubusercontent.com/60564431/179347044-d60272f6-cdfa-4de8-93e7-339972183d37.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdnb.artstation.com/p/assets/images/images/037/138/405/large/swagat-nayak-final.jpg?1619596572&h=650&w=940
+#heroimage: https://cdnb.artstation.com/p/assets/images/images/037/138/405/large/swagat-nayak-final.jpg?1619596572&h=650&w=940
+heroimage: https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg?itok=9hyNVMwe
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -37,7 +38,7 @@ author-name: diger-king
 # URL for the Image of the Author
 author-image: https://avatars.githubusercontent.com/u/60564431?v=4
 # 60 Words About the Author
-author-about: 몇 달 후에 다시 봐도 이해하기 좋은 글 쓰기
+author-about: 언제든 다시 봐도 이해하기 좋은 글을 써보자
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/diger-king
 
