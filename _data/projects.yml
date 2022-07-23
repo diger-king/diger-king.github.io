@@ -1,4 +1,14 @@
-- name: SUWIKI
+- name: SUWIKI - (완료)
   image: https://avatars.githubusercontent.com/u/96416159?s=200&v=4
-  link: https://suwiki.kr
+  link: https://github.com/uswLectureEvaluation/Backend-Remaster
   description: Spring Boot, Spring Data JPA 등을 활용, 교내 강의평가 사이트의 User, Admin 기능 구현
+
+- name: Artistep - (진행중)
+  image: https://avatars.githubusercontent.com/u/104987173?s=200&v=4
+  link: https://github.com/Artistep
+  description: 무명 음악가들을 위한 커뮤니티, API 서버 개발 중
+
+- name: Flag - 게시판 - (진행중)
+  image: https://rukminim1.flixcart.com/image/416/416/ktx9si80/flag/l/l/s/190-bhagwa-flag-size-5-meter-omkar-original-imag75q4z7ejpkqu.jpeg?q=70
+  link:
+  description: 교내 동아리원의 교류를 위한 게시판 사이트 제작, Backend 팀 리더
