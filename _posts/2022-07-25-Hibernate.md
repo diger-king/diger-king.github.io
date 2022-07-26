@@ -12,7 +12,7 @@ tags:
 
 ---
 
-[이전 포스트 - JDBC]()
+[이전 포스트 - JDBC 란?](https://diger-king.github.io/blog/JDBC)
 
 ---
 
@@ -55,6 +55,18 @@ tags:
 JPA 는 그 **인터페이스를 구현한 여러 구현체 중 Hibernate** 를 사용한다.
 
 **Hibernate 는 사용자의 부름에 응하여** **미리 구현해둔 JPA 내용을 토대로**, **JDBC 를 이용한 DB와의 소통을 하며** **원하는 결과를 가져다 주는 역할**을 해준다.
+
+---
+
+# JPA 가 요구하는(명시하는, JPA라는 인터페이스가 담고있는) 내용의 다이어그램
+
+![image](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/images/architecture/JPA_Hibernate.svg)
+
+### Session Factory
+> A Thread-Safe 한 표현방법으로, 애플리케이션 도메인과 DB 모델간의 매핑을 해주는 표현 방법을 제공한다.
+> 
+> Hibernate.Session으로 인한 Acts as a factory for org.hibernate.Session instances. The EntityManagerFactory is the JPA equivalent of a SessionFactory and basically, those two converge into the same SessionFactory implementation.
+
 
 ---
 
