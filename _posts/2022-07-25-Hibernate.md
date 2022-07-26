@@ -3,7 +3,7 @@
 title: Hibernate 란 무엇일까?
 layout: post
 description: Hibernate에 관하여 알아보기
-post-image: https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/images/architecture/data_access_layers.svg
+post-image: https://www.javatpoint.com/images/hibernate/hibernate2.png
 
 tags:
 - Hibernate
@@ -38,7 +38,7 @@ tags:
 
 > @Entity @Id @GeneratedValue
 
-위와 같이 객체와 DB를 매핑시키기 위한 어노테이션들을 자주 접했을 것이다.
+예시로, 위와 같은 객체와 DB를 매핑시키기 위한 어노테이션들을 자주 접했을 것이다.
 
 이것들 모두 JPA라는 인터페이스에 명시가 되어있는 것이고, 이 명시된 사항을 구현한 것이 Hibernate 이다.
 
