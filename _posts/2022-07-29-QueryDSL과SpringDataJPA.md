@@ -11,21 +11,21 @@ tags:
 
 ---
 
-# 현재 내가 Spring Data JPA를 사용하고 있고, QueryDSL을 도입하고싶은데..?
+# Spring Data JPA에 QueryDSL을 도입하고싶은데..?
 
 > 현재 사용하고 있는 Spring Data JPA의 레포지토리를 UserRepository 라고 한다면
 > 
-> QueryDSL을 사용하기 위해선, UserRepositoryCustom 과 같은 커스텀 레포지토리 인터페이스를 만들고
+> QueryDSL을 사용하기 위해선, UserRepositoryCustom 과 같은 **커스텀 레포지토리 인터페이스**를 만들고
 > 
-> 이에 대한 구현체인 UserRepositoryImpl 을 만들어 구현체에 QueryDSL 동적쿼리 내용을 담으면 된다.
+> **이에 대한 구현체인 UserRepositoryImpl** 을 만들어 구현체에 QueryDSL 동적쿼리 내용을 담으면 된다.
 
 ---
 
 # 왜 이렇게 하는 것인가
 
-> 기존 Spring Data JPA Repository에 QueryDSL을 작성하여 사용해도 된다. 당연히 안될건 아니다.
+> **기존 Spring Data JPA Repository**에 **QueryDSL을 작성하여 사용해도 된다. 당연히 안될건 아니다.**
 > 
-> 하지만 이렇게 되면 **인터페이스를 쓰는 의미가 없어**진다. 
+> **하지만** 이렇게 되면 **인터페이스를 쓰는 의미가 없어**진다. 
 > 
 > **인터페이스는 사용자에게 내부적인 로직을 감춰** 보다 **클린한 코드를 제공**할 수 있을 뿐만 아니라, **구현체의 내용이 바뀌어도 그 인터페이스를 상속받는 다른 클래스는 변화를 주지 않아도 된다.** (다형성)
 
@@ -46,16 +46,20 @@ tags:
     
 ### UserRepositoryCustom.java
 
+> 1.QueryDSL 전용 인터페이스를 만든 후
+
     public interface UserRepositoryCustom {
     
         List<UserRequestDto> search(UserSpec userSpec);
+    
     }
 
-> 1.QueryDSL 전용 인터페이스를 만든 후
 
 <br>
 
 ### UserRepositoryCustomImpl.java
+
+> 2.QueryDSL 전용 인터페이스의 구현체를 만들고
 
     @Repository
     @RequiredArgsConstructor
@@ -71,17 +75,18 @@ tags:
                 .fetch();
     }
 
-> 2.QueryDSL 전용 인터페이스의 구현체를 만들고
 
 <br>
 
 ### UserRepository.java
+
+> 3.기존 Spring Data JPA 레포지토리에 QueryDSL 전용 인터페이스를 상속받아 사용하면 된다.
+
     public interface UserRepository extends JpaRepository<User, Long>, UserRepositoryCustom {
     
         Optional<User> findByUserId(Long id);
     }
 
-> 3.기존 Spring Data JPA 레포지토리에 QueryDSL 전용 인터페이스를 상속받아 사용하면 된다.
 
 ---
 
